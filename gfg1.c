@@ -1,3 +1,4 @@
+// search linearly for an element in array using recursion
 #include<stdio.h>
 #include<conio.h>
 int search(int arr[],int n,int target)
