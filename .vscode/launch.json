@@ -2,6 +2,34 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch bubblesort",
+      "request": "launch",
+      "mainClass": "bubblesort",
+      "projectName": "code1_f61af0a7"
+    },
+    {
+      "type": "java",
+      "name": "Launch stackimplement_singlequeue",
+      "request": "launch",
+      "mainClass": "stackimplement_singlequeue",
+      "projectName": "code1_f61af0a7"
+    },
+    {
+      "type": "java",
+      "name": "Launch hi",
+      "request": "launch",
+      "mainClass": "hi",
+      "projectName": "code1_f61af0a7"
+    },
+    {
+      "type": "java",
+      "name": "Launch gfg3",
+      "request": "launch",
+      "mainClass": "gfg3",
+      "projectName": "code1_f61af0a7"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
