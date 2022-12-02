@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch quicksort",
+      "request": "launch",
+      "mainClass": "quicksort",
+      "projectName": "code1_f18c16b7"
+    },
+    {
+      "type": "java",
+      "name": "Launch selectionsort",
+      "request": "launch",
+      "mainClass": "selectionsort",
+      "projectName": "code1_f18c16b7"
+    },
+    {
+      "type": "java",
+      "name": "Launch pattern",
+      "request": "launch",
+      "mainClass": "pattern",
+      "projectName": "code1_f18c16b7"
+    },
+    {
+      "type": "java",
       "name": "Launch bubblesort",
       "request": "launch",
       "mainClass": "bubblesort",
@@ -36,8 +57,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/hp/Desktop/gfgrepo1/code1",
-      "program": "c:/Users/hp/Desktop/gfgrepo1/code1/build/Debug/outDebug",
+      "cwd": "c:/Users/hp/java/prgjava/code1",
+      "program": "c:/Users/hp/java/prgjava/code1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
