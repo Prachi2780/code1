@@ -5,9 +5,18 @@ import java.util.ArrayList;
 public class quicksort 
 {
     public static void main(String[] args) {
-        int[] arr={5,4,3,2,1};
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the size of array");
+        int n=sc.nextInt();
+        int[] arr=new int[n];
+        System.out.println("enter the array elements");
+        for (int i = 0; i < n; i++) {
+            arr[i]=sc.nextInt();
+        }
+       
         sort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
+        sc.close();
     }
     static void sort(int[] nums,int low,int high)
     {
